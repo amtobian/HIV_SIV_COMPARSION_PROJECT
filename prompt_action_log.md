@@ -1,0 +1,7 @@
+# Prompt action log
+
+- Date: 2026-10-27; Request: Create a root `AGENTS.md` containing the supplied agent instructions; Model name/version: unavailable; Actions: Created `AGENTS.md` and initialized this log with the request and actions taken.
+- Date: 2026-10-27; Request: Follow William & Mary's new VS Code/AI-agent development-server guidance and add it to `README.md`; Model name/version: unavailable; Actions: Reviewed the Research Computing guidance and documented supported development/compute workflows, VS Code Server storage, Conda initialization, and Slurm cluster selection in `README.md`.
+- Date: 2026-10-27; Request: Refocus `README.md` on the steps being taken for the project rather than general W&M computing requirements; Model name/version: unavailable; Actions: Replaced general development-server guidance with the current data-download, extraction, archive-cleanup, and Conda-environment workflow documented by the project scripts.
+- Date: 2026-10-27; Request: Do not add, commit, or push to GitHub; Model name/version: unavailable; Actions: Recorded the preference; no GitHub or Git staging/commit/push actions taken.
+- Date: 2026-10-29; Request: Explain how to use MAFFT and IQ-TREE to build an HIV/SIV phylogenetic tree from gag or pol; Model name/version: unavailable; Actions: Reviewed the existing tree, environment, and data-download scripts; provided a region-extraction and alignment/tree workflow tailored to the project without changing analysis scripts.
