@@ -1,4 +1,5 @@
 name: hiv-comp-env
 channels:
   - conda-forge
-prefix: /sciclone/home/amtobian/.conda/envs/hiv-comp-env
+dependencies:
+  - biopython

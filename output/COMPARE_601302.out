@@ -1,0 +1,191 @@
+
+Processing dataset: HIV
+Original accessions: 2
+Retrieving NCBI annotations for HIV (2 accessions)...
+Retrieved annotations for batch 1: 2 record(s)
+Saved annotation cache to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/HIV_annotation_report.jsonl
+Annotated genomes returned by NCBI: 2
+  env: 0 sequences
+  pol: 0 sequences
+  gag: 0 sequences
+
+Processing dataset: HIV1
+Original accessions: 11452
+Retrieving NCBI annotations for HIV1 (11452 accessions)...
+Retrieved annotations for batch 1: 89 record(s)
+Retrieved annotations for batch 2: 87 record(s)
+Retrieved annotations for batch 3: 95 record(s)
+Retrieved annotations for batch 4: 70 record(s)
+Retrieved annotations for batch 5: 63 record(s)
+Retrieved annotations for batch 6: 85 record(s)
+Retrieved annotations for batch 7: 90 record(s)
+Retrieved annotations for batch 8: 95 record(s)
+Retrieved annotations for batch 9: 91 record(s)
+Retrieved annotations for batch 10: 78 record(s)
+Retrieved annotations for batch 11: 83 record(s)
+Retrieved annotations for batch 12: 75 record(s)
+Retrieved annotations for batch 13: 70 record(s)
+Retrieved annotations for batch 14: 67 record(s)
+Retrieved annotations for batch 15: 67 record(s)
+Retrieved annotations for batch 16: 89 record(s)
+Retrieved annotations for batch 17: 78 record(s)
+Retrieved annotations for batch 18: 77 record(s)
+Retrieved annotations for batch 19: 72 record(s)
+Retrieved annotations for batch 20: 70 record(s)
+Retrieved annotations for batch 21: 88 record(s)
+Retrieved annotations for batch 22: 91 record(s)
+Retrieved annotations for batch 23: 81 record(s)
+Retrieved annotations for batch 24: 89 record(s)
+Retrieved annotations for batch 25: 100 record(s)
+Retrieved annotations for batch 26: 100 record(s)
+Retrieved annotations for batch 27: 100 record(s)
+Retrieved annotations for batch 28: 100 record(s)
+Retrieved annotations for batch 29: 100 record(s)
+Retrieved annotations for batch 30: 100 record(s)
+Retrieved annotations for batch 31: 100 record(s)
+Retrieved annotations for batch 32: 100 record(s)
+Retrieved annotations for batch 33: 100 record(s)
+Retrieved annotations for batch 34: 100 record(s)
+Retrieved annotations for batch 35: 100 record(s)
+Retrieved annotations for batch 36: 100 record(s)
+Retrieved annotations for batch 37: 100 record(s)
+Retrieved annotations for batch 38: 100 record(s)
+Retrieved annotations for batch 39: 100 record(s)
+Retrieved annotations for batch 40: 100 record(s)
+Retrieved annotations for batch 41: 100 record(s)
+Retrieved annotations for batch 42: 100 record(s)
+Retrieved annotations for batch 43: 100 record(s)
+Retrieved annotations for batch 44: 100 record(s)
+Retrieved annotations for batch 45: 100 record(s)
+Retrieved annotations for batch 46: 100 record(s)
+Retrieved annotations for batch 47: 95 record(s)
+Retrieved annotations for batch 48: 100 record(s)
+Retrieved annotations for batch 49: 100 record(s)
+Retrieved annotations for batch 50: 100 record(s)
+Retrieved annotations for batch 51: 100 record(s)
+Retrieved annotations for batch 52: 100 record(s)
+Retrieved annotations for batch 53: 100 record(s)
+Retrieved annotations for batch 54: 100 record(s)
+Retrieved annotations for batch 55: 100 record(s)
+Retrieved annotations for batch 56: 100 record(s)
+Retrieved annotations for batch 57: 100 record(s)
+Retrieved annotations for batch 58: 100 record(s)
+Retrieved annotations for batch 59: 100 record(s)
+Retrieved annotations for batch 60: 100 record(s)
+Retrieved annotations for batch 61: 100 record(s)
+Retrieved annotations for batch 62: 100 record(s)
+Retrieved annotations for batch 63: 100 record(s)
+Retrieved annotations for batch 64: 100 record(s)
+Retrieved annotations for batch 65: 100 record(s)
+Retrieved annotations for batch 66: 100 record(s)
+Retrieved annotations for batch 67: 88 record(s)
+Retrieved annotations for batch 68: 69 record(s)
+Retrieved annotations for batch 69: 100 record(s)
+Retrieved annotations for batch 70: 80 record(s)
+Retrieved annotations for batch 71: 81 record(s)
+Retrieved annotations for batch 72: 93 record(s)
+Retrieved annotations for batch 73: 91 record(s)
+Retrieved annotations for batch 74: 84 record(s)
+Retrieved annotations for batch 75: 90 record(s)
+Retrieved annotations for batch 76: 100 record(s)
+Retrieved annotations for batch 77: 100 record(s)
+Retrieved annotations for batch 78: 100 record(s)
+Retrieved annotations for batch 79: 100 record(s)
+Retrieved annotations for batch 80: 100 record(s)
+Retrieved annotations for batch 81: 100 record(s)
+Retrieved annotations for batch 82: 100 record(s)
+Retrieved annotations for batch 83: 100 record(s)
+Retrieved annotations for batch 84: 100 record(s)
+Retrieved annotations for batch 85: 100 record(s)
+Retrieved annotations for batch 86: 100 record(s)
+Retrieved annotations for batch 87: 100 record(s)
+Retrieved annotations for batch 88: 100 record(s)
+Retrieved annotations for batch 89: 100 record(s)
+Retrieved annotations for batch 90: 100 record(s)
+Retrieved annotations for batch 91: 100 record(s)
+Retrieved annotations for batch 92: 99 record(s)
+Retrieved annotations for batch 93: 99 record(s)
+Retrieved annotations for batch 94: 100 record(s)
+Retrieved annotations for batch 95: 96 record(s)
+Retrieved annotations for batch 96: 100 record(s)
+Retrieved annotations for batch 97: 100 record(s)
+Retrieved annotations for batch 98: 100 record(s)
+Retrieved annotations for batch 99: 100 record(s)
+Retrieved annotations for batch 100: 100 record(s)
+Retrieved annotations for batch 101: 100 record(s)
+Retrieved annotations for batch 102: 100 record(s)
+Retrieved annotations for batch 103: 100 record(s)
+Retrieved annotations for batch 104: 99 record(s)
+Retrieved annotations for batch 105: 100 record(s)
+Retrieved annotations for batch 106: 100 record(s)
+Retrieved annotations for batch 107: 100 record(s)
+Retrieved annotations for batch 108: 100 record(s)
+Retrieved annotations for batch 109: 100 record(s)
+Retrieved annotations for batch 110: 100 record(s)
+Retrieved annotations for batch 111: 100 record(s)
+Retrieved annotations for batch 112: 99 record(s)
+Retrieved annotations for batch 113: 100 record(s)
+Retrieved annotations for batch 114: 100 record(s)
+Retrieved annotations for batch 115: 52 record(s)
+Saved annotation cache to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/HIV1_annotation_report.jsonl
+Annotated genomes returned by NCBI: 10855
+  env: 0 sequences
+  pol: 0 sequences
+  gag: 0 sequences
+
+Processing dataset: HIV2
+Original accessions: 45
+Retrieving NCBI annotations for HIV2 (45 accessions)...
+Retrieved annotations for batch 1: 45 record(s)
+Saved annotation cache to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/HIV2_annotation_report.jsonl
+Annotated genomes returned by NCBI: 45
+  env: 0 sequences
+  pol: 0 sequences
+  gag: 0 sequences
+
+Processing dataset: Siminian-HIV
+Original accessions: 255
+Retrieving NCBI annotations for Siminian-HIV (255 accessions)...
+Retrieved annotations for batch 1: 100 record(s)
+Retrieved annotations for batch 2: 100 record(s)
+Retrieved annotations for batch 3: 55 record(s)
+Saved annotation cache to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/Siminian-HIV_annotation_report.jsonl
+Annotated genomes returned by NCBI: 255
+  env: 0 sequences
+  pol: 0 sequences
+  gag: 0 sequences
+
+Processing dataset: SIV
+Original accessions: 2560
+Retrieving NCBI annotations for SIV (2560 accessions)...
+Retrieved annotations for batch 1: 100 record(s)
+Retrieved annotations for batch 2: 100 record(s)
+Retrieved annotations for batch 3: 100 record(s)
+Retrieved annotations for batch 4: 100 record(s)
+Retrieved annotations for batch 5: 100 record(s)
+Retrieved annotations for batch 6: 100 record(s)
+Retrieved annotations for batch 7: 100 record(s)
+Retrieved annotations for batch 8: 100 record(s)
+Retrieved annotations for batch 9: 100 record(s)
+Retrieved annotations for batch 10: 100 record(s)
+Retrieved annotations for batch 11: 100 record(s)
+Retrieved annotations for batch 12: 100 record(s)
+Retrieved annotations for batch 13: 100 record(s)
+Retrieved annotations for batch 14: 100 record(s)
+Retrieved annotations for batch 15: 100 record(s)
+Retrieved annotations for batch 16: 100 record(s)
+Retrieved annotations for batch 17: 100 record(s)
+Retrieved annotations for batch 18: 100 record(s)
+Retrieved annotations for batch 19: 100 record(s)
+Retrieved annotations for batch 20: 100 record(s)
+Retrieved annotations for batch 21: 100 record(s)
+Retrieved annotations for batch 22: 100 record(s)
+Retrieved annotations for batch 23: 100 record(s)
+Retrieved annotations for batch 24: 100 record(s)
+Retrieved annotations for batch 25: 100 record(s)
+Retrieved annotations for batch 26: 60 record(s)
+Saved annotation cache to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/SIV_annotation_report.jsonl
+Annotated genomes returned by NCBI: 2560
+  env: 0 sequences
+  pol: 0 sequences
+  gag: 0 sequences

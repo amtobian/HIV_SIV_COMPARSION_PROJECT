@@ -1,0 +1,50 @@
+
+Processing dataset: HIV
+Original accessions: 2
+Using cached annotations for HIV: /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/HIV_annotation_report.jsonl
+Annotated genomes returned by NCBI: 2
+  env: 2 sequences
+  pol: 2 sequences
+  gag: 2 sequences
+
+Processing dataset: HIV1
+Original accessions: 11452
+Using cached annotations for HIV1: /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/HIV1_annotation_report.jsonl
+Annotated genomes returned by NCBI: 10855
+  env: 8320 sequences
+  pol: 7737 sequences
+  gag: 8198 sequences
+
+Processing dataset: HIV2
+Original accessions: 45
+Using cached annotations for HIV2: /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/HIV2_annotation_report.jsonl
+Annotated genomes returned by NCBI: 45
+  env: 43 sequences
+  pol: 41 sequences
+  gag: 44 sequences
+
+Processing dataset: Siminian-HIV
+Original accessions: 255
+Using cached annotations for Siminian-HIV: /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/Siminian-HIV_annotation_report.jsonl
+Annotated genomes returned by NCBI: 255
+  env: 239 sequences
+  pol: 241 sequences
+  gag: 251 sequences
+
+Processing dataset: SIV
+Original accessions: 2560
+Using cached annotations for SIV: /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/annotations/SIV_annotation_report.jsonl
+Annotated genomes returned by NCBI: 2560
+  env: 2521 sequences
+  pol: 2530 sequences
+  gag: 2547 sequences
+
+Wrote 11125 env sequences to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/env.fasta
+
+Wrote 10551 pol sequences to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/pol.fasta
+
+Wrote 11042 gag sequences to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/gag.fasta
+
+Gene extraction complete.
+Results directory: /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results
+Aligning env sequences with 8 thread(s)...

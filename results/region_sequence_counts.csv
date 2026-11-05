@@ -1,0 +1,16 @@
+region,group,sequence_count
+env,HIV,2
+env,HIV1,8320
+env,HIV2,43
+env,Siminian-HIV,239
+env,SIV,2521
+pol,HIV,2
+pol,HIV1,7737
+pol,HIV2,41
+pol,Siminian-HIV,241
+pol,SIV,2530
+gag,HIV,2
+gag,HIV1,8198
+gag,HIV2,44
+gag,Siminian-HIV,251
+gag,SIV,2547
