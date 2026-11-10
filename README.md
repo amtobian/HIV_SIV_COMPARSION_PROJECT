@@ -61,15 +61,19 @@ eval "$(conda shell.bash hook)"
 conda activate hiv-comp-env
 ```
 
-### 5. Compare env, pol, and gag
+The setup script activates the environment and verifies that Biopython imports successfully after creating or updating it, then deactivates the environment. The pairwise-identity plotting helper uses only Python's standard library, so it does not require an additional plotting package.
 
-After all six extracted datasets are present, run the comparison from an allocated compute node or job:
+### 5. Compare env, pol, and gag (run once)
+
+After all six extracted datasets are present and step 4 has created `hiv-comp-env`, submit the comparison job from the project directory:
 
 ```bash
-bash scripts/05_compare.sh
+sbatch scripts/05_compare.sbatch
 ```
 
-The script extracts annotated `env`, `pol`, and `gag` CDS features from each dataset's `.gbff` files, aligns each region separately with MAFFT, and compares every dataset-group pair. The regions are extracted from the CDS product name: 'envelope' 'gp120' or 'gp160' map to env, 'polymerase' or 'reverse transcripatse' map to pol, and 'core protein' or 'pr55' map to gag. This skips regions that don't match and fusion areas. The comparison includes within-group pairs as well as between-group pairs. It requires the extracted directories `HIV/HIV`, `HIV/HIV1`, `HIV/HIV2`, `HIV/HIV3`, `HIV/Siminian-HIV`, and `SIV/SIV` under `~/scr10/data_project`; it stops with an error if a dataset directory or its GenBank files are missing. MAFFT is loaded by the comparison script to align each region seperately. 06b_summarize_comparison.py is used to summarize the alignments that have been created. 
+Wait for this job to finish successfully before proceeding to step 6. `05_compare.sbatch` calls `05_compare.sh`, which runs extraction, alignment, and the pairwise identity summary. Do not submit the comparison again if you have already run it successfully and `results/region_pairwise_identity.csv` exists. If working inside an allocated compute node instead of submitting a job, you can run `bash scripts/05_compare.sh`.
+
+The script extracts annotated `env`, `pol`, and `gag` CDS features from each dataset's `.gbff` files, aligns each region separately with MAFFT, and compares every dataset-group pair. The regions are extracted from the CDS product name: 'envelope', 'gp120', or 'gp160' map to env; 'polymerase' or 'reverse transcriptase' map to pol; and 'core protein' or 'pr55' map to gag. Unmatched regions and fusion areas are skipped. The comparison includes within-group pairs as well as between-group pairs. It requires the extracted directories `HIV/HIV`, `HIV/HIV1`, `HIV/HIV2`, `HIV/HIV3`, `HIV/Siminian-HIV`, and `SIV/SIV` under `~/scr10/data_project`; it stops with an error if a dataset directory or its genome files are missing. MAFFT aligns each region, and `06b_summarize_comparison.py` summarizes the alignments.
 
 Outputs are written to the project `results/` directory:
 
@@ -78,6 +82,25 @@ Outputs are written to the project `results/` directory:
 - `region_sequence_counts.csv`: extracted sequence counts for each region and dataset group.
 - `region_pairwise_identity.csv`: sequence-pair counts, alignment lengths, callable and identical site totals, and pooled percent identity for each region and group pair.
 
-Identity is calculated over alignment columns where both sequences have an unambiguous nucleotide (`A`, `C`, `G`, or `T`); gaps and ambiguous bases are excluded. Rows with no available sequence pairs or no callable sites have a blank identity value. Check the extraction warnings and sequence-count table before interpreting comparisons, since datasets may lack a CDS annotation for a region.
+Identity is calculated over alignment columns where both sequences have an unambiguous nucleotide (`A`, `C`, `G`, or `T`); gaps and ambiguous bases are excluded. The reported percent identity is pooled across all sequence pairs in each group comparison, not an unweighted average of per-sequence identities. Rows with no available sequence pairs or no callable sites have a blank identity value. Check the extraction warnings and sequence-count table before interpreting comparisons, since datasets may lack a CDS annotation for a region.
+
+### 6. Run pairwise identity comparisons and create the heatmap
+
+This step requires step 4 (the `hiv-comp-env` environment) and successful completion of step 5 (the existing `results/region_pairwise_identity.csv`). If you have already completed both, proceed directly to the plot; do not rerun either step. From the project directory, create the heatmap from the existing CSV:
+
+```bash
+bash scripts/07_pairwise_identity.sh
+```
+
+If you prefer to submit the plotting step as a small Slurm job, submit the wrapper from the project directory:
+
+```bash
+sbatch scripts/07_pairwise_identity.sbatch
+```
+
+The script loads Miniforge, initializes Conda in its current shell, activates `hiv-comp-env`, runs `07_plot_pairwise_identity.py` on the existing CSV, and deactivates the environment. The heatmap covers within-group and between-group comparisons for HIV, HIV1, HIV2, HIV3, Siminian-HIV, and SIV.
+
+The plotting step writes `results/region_pairwise_identity_heatmap.svg`, with one heatmap panel per gene. It does not modify the comparison CSVs. Inspect the sequence counts and comparison CSV alongside the heatmap; identity values are pooled over callable nucleotide sites, with gaps and ambiguous bases excluded.
 
 ## Personal Reflection 
+What started as a whim during the add/drop period at the beginning of the semester has somehow turned into this project! Before this class I didn't even really know what a HPC was, how to fully use my terminal to contorl my computer, wildcards in bash scripts and anything about Git/Github. This class and this project has really pushed my limits on how I am using a computer, and even AI tools.
