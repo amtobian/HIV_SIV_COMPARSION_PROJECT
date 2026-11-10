@@ -14,4 +14,8 @@ else
     conda env create --file hiv-comp-env.yml
 fi
 
+conda activate hiv-comp-env
+python -c "import Bio; print('hiv-comp-env is ready; Biopython', Bio.__version__)"
+conda deactivate
+
 mkdir -p results

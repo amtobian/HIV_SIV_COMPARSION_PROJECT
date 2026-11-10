@@ -26,6 +26,7 @@ DATASETS = {
     "HIV": DATA_ROOT / "HIV" / "HIV",
     "HIV1": DATA_ROOT / "HIV" / "HIV1",
     "HIV2": DATA_ROOT / "HIV" / "HIV2",
+    "HIV3": DATA_ROOT / "HIV" / "HIV3",
     "Siminian-HIV": DATA_ROOT / "HIV" / "Siminian-HIV",
     "SIV": DATA_ROOT / "SIV" / "SIV",
 }
