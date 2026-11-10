@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1392" height="572" viewBox="0 0 1392 572" role="img" aria-labelledby="chart-title chart-description">
+<title id="chart-title">Pairwise nucleotide identity by gene and viral group</title>
+<desc id="chart-description">Three heatmaps show pooled percent identity for every within-group and between-group comparison in env, pol, and gag.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="696.0" y="38" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold">Pairwise nucleotide identity by gene and viral group</text>
+<text x="252.0" y="82" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">ENV</text>
+<text x="120" y="136.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV</text>
+<rect x="132" y="112" width="48" height="48" fill="#306ead" stroke="#ffffff" stroke-width="1"><title>ENV: HIV vs HIV: 83.1% pooled identity</title></rect>
+<text x="156.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">83.1%</text>
+<rect x="180" y="112" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>ENV: HIV vs HIV1: 63.7% pooled identity</title></rect>
+<text x="204.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.7%</text>
+<rect x="228" y="112" width="48" height="48" fill="#7da4cc" stroke="#ffffff" stroke-width="1"><title>ENV: HIV vs HIV2: 51.2% pooled identity</title></rect>
+<text x="252.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">51.2%</text>
+<rect x="276" y="112" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>ENV: HIV vs Siminian-HIV: 63.7% pooled identity</title></rect>
+<text x="300.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.7%</text>
+<rect x="324" y="112" width="48" height="48" fill="#7ba3cc" stroke="#ffffff" stroke-width="1"><title>ENV: HIV vs SIV: 51.9% pooled identity</title></rect>
+<text x="348.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">51.9%</text>
+<text x="120" y="184.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV1</text>
+<rect x="132" y="160" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>ENV: HIV1 vs HIV: 63.7% pooled identity</title></rect>
+<text x="156.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.7%</text>
+<rect x="180" y="160" width="48" height="48" fill="#316ead" stroke="#ffffff" stroke-width="1"><title>ENV: HIV1 vs HIV1: 82.9% pooled identity</title></rect>
+<text x="204.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">82.9%</text>
+<rect x="228" y="160" width="48" height="48" fill="#759fc9" stroke="#ffffff" stroke-width="1"><title>ENV: HIV1 vs HIV2: 54.3% pooled identity</title></rect>
+<text x="252.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">54.3%</text>
+<rect x="276" y="160" width="48" height="48" fill="#2d6bab" stroke="#ffffff" stroke-width="1"><title>ENV: HIV1 vs Siminian-HIV: 84.7% pooled identity</title></rect>
+<text x="300.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">84.7%</text>
+<rect x="324" y="160" width="48" height="48" fill="#719cc7" stroke="#ffffff" stroke-width="1"><title>ENV: HIV1 vs SIV: 56.2% pooled identity</title></rect>
+<text x="348.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">56.2%</text>
+<text x="120" y="232.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV2</text>
+<rect x="132" y="208" width="48" height="48" fill="#7da4cc" stroke="#ffffff" stroke-width="1"><title>ENV: HIV2 vs HIV: 51.2% pooled identity</title></rect>
+<text x="156.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">51.2%</text>
+<rect x="180" y="208" width="48" height="48" fill="#759fc9" stroke="#ffffff" stroke-width="1"><title>ENV: HIV2 vs HIV1: 54.3% pooled identity</title></rect>
+<text x="204.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">54.3%</text>
+<rect x="228" y="208" width="48" height="48" fill="#3470ae" stroke="#ffffff" stroke-width="1"><title>ENV: HIV2 vs HIV2: 81.5% pooled identity</title></rect>
+<text x="252.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">81.5%</text>
+<rect x="276" y="208" width="48" height="48" fill="#739dc8" stroke="#ffffff" stroke-width="1"><title>ENV: HIV2 vs Siminian-HIV: 55.2% pooled identity</title></rect>
+<text x="300.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">55.2%</text>
+<rect x="324" y="208" width="48" height="48" fill="#477eb6" stroke="#ffffff" stroke-width="1"><title>ENV: HIV2 vs SIV: 73.7% pooled identity</title></rect>
+<text x="348.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">73.7%</text>
+<text x="120" y="280.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">Siminian-HIV</text>
+<rect x="132" y="256" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>ENV: Siminian-HIV vs HIV: 63.7% pooled identity</title></rect>
+<text x="156.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.7%</text>
+<rect x="180" y="256" width="48" height="48" fill="#2d6bab" stroke="#ffffff" stroke-width="1"><title>ENV: Siminian-HIV vs HIV1: 84.7% pooled identity</title></rect>
+<text x="204.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">84.7%</text>
+<rect x="228" y="256" width="48" height="48" fill="#739dc8" stroke="#ffffff" stroke-width="1"><title>ENV: Siminian-HIV vs HIV2: 55.2% pooled identity</title></rect>
+<text x="252.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">55.2%</text>
+<rect x="276" y="256" width="48" height="48" fill="#155aa1" stroke="#ffffff" stroke-width="1"><title>ENV: Siminian-HIV vs Siminian-HIV: 94.4% pooled identity</title></rect>
+<text x="300.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">94.4%</text>
+<rect x="324" y="256" width="48" height="48" fill="#6d99c6" stroke="#ffffff" stroke-width="1"><title>ENV: Siminian-HIV vs SIV: 57.8% pooled identity</title></rect>
+<text x="348.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">57.8%</text>
+<text x="120" y="328.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">SIV</text>
+<rect x="132" y="304" width="48" height="48" fill="#7ba3cc" stroke="#ffffff" stroke-width="1"><title>ENV: SIV vs HIV: 51.9% pooled identity</title></rect>
+<text x="156.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">51.9%</text>
+<rect x="180" y="304" width="48" height="48" fill="#719cc7" stroke="#ffffff" stroke-width="1"><title>ENV: SIV vs HIV1: 56.2% pooled identity</title></rect>
+<text x="204.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">56.2%</text>
+<rect x="228" y="304" width="48" height="48" fill="#477eb6" stroke="#ffffff" stroke-width="1"><title>ENV: SIV vs HIV2: 73.7% pooled identity</title></rect>
+<text x="252.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">73.7%</text>
+<rect x="276" y="304" width="48" height="48" fill="#6d99c6" stroke="#ffffff" stroke-width="1"><title>ENV: SIV vs Siminian-HIV: 57.8% pooled identity</title></rect>
+<text x="300.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#111827">57.8%</text>
+<rect x="324" y="304" width="48" height="48" fill="#1158a0" stroke="#ffffff" stroke-width="1"><title>ENV: SIV vs SIV: 96.1% pooled identity</title></rect>
+<text x="348.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">96.1%</text>
+<text x="156.0" y="366" transform="rotate(-45 156.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV</text>
+<text x="204.0" y="366" transform="rotate(-45 204.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV1</text>
+<text x="252.0" y="366" transform="rotate(-45 252.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV2</text>
+<text x="300.0" y="366" transform="rotate(-45 300.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">Siminian-HIV</text>
+<text x="348.0" y="366" transform="rotate(-45 348.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">SIV</text>
+<text x="687.0" y="82" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">POL</text>
+<text x="555" y="136.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV</text>
+<rect x="567" y="112" width="48" height="48" fill="#1c5fa4" stroke="#ffffff" stroke-width="1"><title>POL: HIV vs HIV: 91.5% pooled identity</title></rect>
+<text x="591.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">91.5%</text>
+<rect x="615" y="112" width="48" height="48" fill="#437bb5" stroke="#ffffff" stroke-width="1"><title>POL: HIV vs HIV1: 75.2% pooled identity</title></rect>
+<text x="639.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">75.2%</text>
+<rect x="663" y="112" width="48" height="48" fill="#5d8dbf" stroke="#ffffff" stroke-width="1"><title>POL: HIV vs HIV2: 64.5% pooled identity</title></rect>
+<text x="687.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.5%</text>
+<rect x="711" y="112" width="48" height="48" fill="#5c8dbf" stroke="#ffffff" stroke-width="1"><title>POL: HIV vs Siminian-HIV: 64.7% pooled identity</title></rect>
+<text x="735.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.7%</text>
+<rect x="759" y="112" width="48" height="48" fill="#5c8dbf" stroke="#ffffff" stroke-width="1"><title>POL: HIV vs SIV: 64.7% pooled identity</title></rect>
+<text x="783.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.7%</text>
+<text x="555" y="184.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV1</text>
+<rect x="567" y="160" width="48" height="48" fill="#437bb5" stroke="#ffffff" stroke-width="1"><title>POL: HIV1 vs HIV: 75.2% pooled identity</title></rect>
+<text x="591.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">75.2%</text>
+<rect x="615" y="160" width="48" height="48" fill="#2163a6" stroke="#ffffff" stroke-width="1"><title>POL: HIV1 vs HIV1: 89.5% pooled identity</title></rect>
+<text x="639.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">89.5%</text>
+<rect x="663" y="160" width="48" height="48" fill="#5d8dbf" stroke="#ffffff" stroke-width="1"><title>POL: HIV1 vs HIV2: 64.4% pooled identity</title></rect>
+<text x="687.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.4%</text>
+<rect x="711" y="160" width="48" height="48" fill="#5b8cbe" stroke="#ffffff" stroke-width="1"><title>POL: HIV1 vs Siminian-HIV: 65.4% pooled identity</title></rect>
+<text x="735.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">65.4%</text>
+<rect x="759" y="160" width="48" height="48" fill="#5b8cbf" stroke="#ffffff" stroke-width="1"><title>POL: HIV1 vs SIV: 65.1% pooled identity</title></rect>
+<text x="783.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">65.1%</text>
+<text x="555" y="232.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV2</text>
+<rect x="567" y="208" width="48" height="48" fill="#5d8dbf" stroke="#ffffff" stroke-width="1"><title>POL: HIV2 vs HIV: 64.5% pooled identity</title></rect>
+<text x="591.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.5%</text>
+<rect x="615" y="208" width="48" height="48" fill="#5d8dbf" stroke="#ffffff" stroke-width="1"><title>POL: HIV2 vs HIV1: 64.4% pooled identity</title></rect>
+<text x="639.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.4%</text>
+<rect x="663" y="208" width="48" height="48" fill="#2c6bab" stroke="#ffffff" stroke-width="1"><title>POL: HIV2 vs HIV2: 85.0% pooled identity</title></rect>
+<text x="687.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">85.0%</text>
+<rect x="711" y="208" width="48" height="48" fill="#3a75b1" stroke="#ffffff" stroke-width="1"><title>POL: HIV2 vs Siminian-HIV: 78.9% pooled identity</title></rect>
+<text x="735.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">78.9%</text>
+<rect x="759" y="208" width="48" height="48" fill="#3b75b1" stroke="#ffffff" stroke-width="1"><title>POL: HIV2 vs SIV: 78.7% pooled identity</title></rect>
+<text x="783.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">78.7%</text>
+<text x="555" y="280.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">Siminian-HIV</text>
+<rect x="567" y="256" width="48" height="48" fill="#5c8dbf" stroke="#ffffff" stroke-width="1"><title>POL: Siminian-HIV vs HIV: 64.7% pooled identity</title></rect>
+<text x="591.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.7%</text>
+<rect x="615" y="256" width="48" height="48" fill="#5b8cbe" stroke="#ffffff" stroke-width="1"><title>POL: Siminian-HIV vs HIV1: 65.4% pooled identity</title></rect>
+<text x="639.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">65.4%</text>
+<rect x="663" y="256" width="48" height="48" fill="#3a75b1" stroke="#ffffff" stroke-width="1"><title>POL: Siminian-HIV vs HIV2: 78.9% pooled identity</title></rect>
+<text x="687.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">78.9%</text>
+<rect x="711" y="256" width="48" height="48" fill="#0d549e" stroke="#ffffff" stroke-width="1"><title>POL: Siminian-HIV vs Siminian-HIV: 98.0% pooled identity</title></rect>
+<text x="735.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">98.0%</text>
+<rect x="759" y="256" width="48" height="48" fill="#0e559f" stroke="#ffffff" stroke-width="1"><title>POL: Siminian-HIV vs SIV: 97.4% pooled identity</title></rect>
+<text x="783.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">97.4%</text>
+<text x="555" y="328.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">SIV</text>
+<rect x="567" y="304" width="48" height="48" fill="#5c8dbf" stroke="#ffffff" stroke-width="1"><title>POL: SIV vs HIV: 64.7% pooled identity</title></rect>
+<text x="591.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.7%</text>
+<rect x="615" y="304" width="48" height="48" fill="#5b8cbf" stroke="#ffffff" stroke-width="1"><title>POL: SIV vs HIV1: 65.1% pooled identity</title></rect>
+<text x="639.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">65.1%</text>
+<rect x="663" y="304" width="48" height="48" fill="#3b75b1" stroke="#ffffff" stroke-width="1"><title>POL: SIV vs HIV2: 78.7% pooled identity</title></rect>
+<text x="687.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">78.7%</text>
+<rect x="711" y="304" width="48" height="48" fill="#0e559f" stroke="#ffffff" stroke-width="1"><title>POL: SIV vs Siminian-HIV: 97.4% pooled identity</title></rect>
+<text x="735.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">97.4%</text>
+<rect x="759" y="304" width="48" height="48" fill="#0f569f" stroke="#ffffff" stroke-width="1"><title>POL: SIV vs SIV: 96.9% pooled identity</title></rect>
+<text x="783.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">96.9%</text>
+<text x="591.0" y="366" transform="rotate(-45 591.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV</text>
+<text x="639.0" y="366" transform="rotate(-45 639.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV1</text>
+<text x="687.0" y="366" transform="rotate(-45 687.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV2</text>
+<text x="735.0" y="366" transform="rotate(-45 735.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">Siminian-HIV</text>
+<text x="783.0" y="366" transform="rotate(-45 783.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">SIV</text>
+<text x="1122.0" y="82" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">GAG</text>
+<text x="990" y="136.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV</text>
+<rect x="1002" y="112" width="48" height="48" fill="#2364a7" stroke="#ffffff" stroke-width="1"><title>GAG: HIV vs HIV: 88.7% pooled identity</title></rect>
+<text x="1026.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">88.7%</text>
+<rect x="1050" y="112" width="48" height="48" fill="#457cb5" stroke="#ffffff" stroke-width="1"><title>GAG: HIV vs HIV1: 74.6% pooled identity</title></rect>
+<text x="1074.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">74.6%</text>
+<rect x="1098" y="112" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>GAG: HIV vs HIV2: 63.7% pooled identity</title></rect>
+<text x="1122.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.7%</text>
+<rect x="1146" y="112" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>GAG: HIV vs Siminian-HIV: 63.5% pooled identity</title></rect>
+<text x="1170.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.5%</text>
+<rect x="1194" y="112" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>GAG: HIV vs SIV: 63.5% pooled identity</title></rect>
+<text x="1218.0" y="136.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.5%</text>
+<text x="990" y="184.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV1</text>
+<rect x="1002" y="160" width="48" height="48" fill="#457cb5" stroke="#ffffff" stroke-width="1"><title>GAG: HIV1 vs HIV: 74.6% pooled identity</title></rect>
+<text x="1026.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">74.6%</text>
+<rect x="1050" y="160" width="48" height="48" fill="#2566a8" stroke="#ffffff" stroke-width="1"><title>GAG: HIV1 vs HIV1: 87.8% pooled identity</title></rect>
+<text x="1074.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">87.8%</text>
+<rect x="1098" y="160" width="48" height="48" fill="#5d8ebf" stroke="#ffffff" stroke-width="1"><title>GAG: HIV1 vs HIV2: 64.2% pooled identity</title></rect>
+<text x="1122.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.2%</text>
+<rect x="1146" y="160" width="48" height="48" fill="#5d8dbf" stroke="#ffffff" stroke-width="1"><title>GAG: HIV1 vs Siminian-HIV: 64.4% pooled identity</title></rect>
+<text x="1170.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.4%</text>
+<rect x="1194" y="160" width="48" height="48" fill="#5e8ec0" stroke="#ffffff" stroke-width="1"><title>GAG: HIV1 vs SIV: 64.1% pooled identity</title></rect>
+<text x="1218.0" y="184.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.1%</text>
+<text x="990" y="232.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">HIV2</text>
+<rect x="1002" y="208" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>GAG: HIV2 vs HIV: 63.7% pooled identity</title></rect>
+<text x="1026.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.7%</text>
+<rect x="1050" y="208" width="48" height="48" fill="#5d8ebf" stroke="#ffffff" stroke-width="1"><title>GAG: HIV2 vs HIV1: 64.2% pooled identity</title></rect>
+<text x="1074.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.2%</text>
+<rect x="1098" y="208" width="48" height="48" fill="#2b6aab" stroke="#ffffff" stroke-width="1"><title>GAG: HIV2 vs HIV2: 85.2% pooled identity</title></rect>
+<text x="1122.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">85.2%</text>
+<rect x="1146" y="208" width="48" height="48" fill="#3773b0" stroke="#ffffff" stroke-width="1"><title>GAG: HIV2 vs Siminian-HIV: 80.2% pooled identity</title></rect>
+<text x="1170.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">80.2%</text>
+<rect x="1194" y="208" width="48" height="48" fill="#3873b0" stroke="#ffffff" stroke-width="1"><title>GAG: HIV2 vs SIV: 79.9% pooled identity</title></rect>
+<text x="1218.0" y="232.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">79.9%</text>
+<text x="990" y="280.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">Siminian-HIV</text>
+<rect x="1002" y="256" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>GAG: Siminian-HIV vs HIV: 63.5% pooled identity</title></rect>
+<text x="1026.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.5%</text>
+<rect x="1050" y="256" width="48" height="48" fill="#5d8dbf" stroke="#ffffff" stroke-width="1"><title>GAG: Siminian-HIV vs HIV1: 64.4% pooled identity</title></rect>
+<text x="1074.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.4%</text>
+<rect x="1098" y="256" width="48" height="48" fill="#3773b0" stroke="#ffffff" stroke-width="1"><title>GAG: Siminian-HIV vs HIV2: 80.2% pooled identity</title></rect>
+<text x="1122.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">80.2%</text>
+<rect x="1146" y="256" width="48" height="48" fill="#0d549e" stroke="#ffffff" stroke-width="1"><title>GAG: Siminian-HIV vs Siminian-HIV: 98.0% pooled identity</title></rect>
+<text x="1170.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">98.0%</text>
+<rect x="1194" y="256" width="48" height="48" fill="#0f569f" stroke="#ffffff" stroke-width="1"><title>GAG: Siminian-HIV vs SIV: 97.2% pooled identity</title></rect>
+<text x="1218.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">97.2%</text>
+<text x="990" y="328.0" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12">SIV</text>
+<rect x="1002" y="304" width="48" height="48" fill="#5f8fc0" stroke="#ffffff" stroke-width="1"><title>GAG: SIV vs HIV: 63.5% pooled identity</title></rect>
+<text x="1026.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">63.5%</text>
+<rect x="1050" y="304" width="48" height="48" fill="#5e8ec0" stroke="#ffffff" stroke-width="1"><title>GAG: SIV vs HIV1: 64.1% pooled identity</title></rect>
+<text x="1074.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">64.1%</text>
+<rect x="1098" y="304" width="48" height="48" fill="#3873b0" stroke="#ffffff" stroke-width="1"><title>GAG: SIV vs HIV2: 79.9% pooled identity</title></rect>
+<text x="1122.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">79.9%</text>
+<rect x="1146" y="304" width="48" height="48" fill="#0f569f" stroke="#ffffff" stroke-width="1"><title>GAG: SIV vs Siminian-HIV: 97.2% pooled identity</title></rect>
+<text x="1170.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">97.2%</text>
+<rect x="1194" y="304" width="48" height="48" fill="#10569f" stroke="#ffffff" stroke-width="1"><title>GAG: SIV vs SIV: 96.9% pooled identity</title></rect>
+<text x="1218.0" y="328.0" text-anchor="middle" dominant-baseline="middle" font-family="sans-serif" font-size="10" fill="#ffffff">96.9%</text>
+<text x="1026.0" y="366" transform="rotate(-45 1026.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV</text>
+<text x="1074.0" y="366" transform="rotate(-45 1074.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV1</text>
+<text x="1122.0" y="366" transform="rotate(-45 1122.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">HIV2</text>
+<text x="1170.0" y="366" transform="rotate(-45 1170.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">Siminian-HIV</text>
+<text x="1218.0" y="366" transform="rotate(-45 1218.0 366)" text-anchor="end" font-family="sans-serif" font-size="12">SIV</text>
+<defs><linearGradient id="identity-scale" x1="0" x2="1"><stop offset="0%" stop-color="#f7fbff"/><stop offset="100%" stop-color="#08519c"/></linearGradient></defs>
+<text x="784.5" y="441" text-anchor="middle" font-family="sans-serif" font-size="12">Pooled identity (%)</text>
+<rect x="567" y="457" width="435" height="14" fill="url(#identity-scale)"/>
+<text x="567" y="488" text-anchor="middle" font-family="sans-serif" font-size="11">0%</text>
+<text x="784.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="11">50%</text>
+<text x="1002" y="488" text-anchor="middle" font-family="sans-serif" font-size="11">100%</text>
+<text x="696.0" y="519" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#374151">Identity is pooled across sequence pairs; gaps and ambiguous bases are excluded.</text>
+</svg>
