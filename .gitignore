@@ -1,0 +1,14 @@
+results/annotations/HIV_annotation_report.jsonl
+results/annotations/HIV1_annotation_report.jsonl
+results/annotations/HIV2_annotation_report.jsonl
+results/annotations/SIV_annotation_report.jsonl
+results/annotations/Siminian-HIV_annotation_report.jsonl
+
+results/env.aln.fasta
+results/env.fasta
+results/gag.aln.fasta
+results/gag.fasta
+results/pol.aln.fasta
+results/pol.fasta
+
+
