@@ -63,7 +63,7 @@ conda activate hiv-comp-env
 
 The setup script activates the environment and verifies that Biopython imports successfully after creating or updating it, then deactivates the environment. The pairwise-identity plotting helper uses only Python's standard library, so it does not require an additional plotting package.
 
-### 5. Compare env, pol, and gag (run once)
+### 5. Compare env, pol, and gag
 
 After all six extracted datasets are present and step 4 has created `hiv-comp-env`, submit the comparison job from the project directory:
 
@@ -102,9 +102,26 @@ The script loads Miniforge, initializes Conda in its current shell, activates `h
 
 The plotting step writes `results/region_pairwise_identity_heatmap.svg`, with one heatmap panel per gene. It does not modify the comparison CSVs. Inspect the sequence counts and comparison CSV alongside the heatmap; identity values are pooled over callable nucleotide sites, with gaps and ambiguous bases excluded.
 
-<img src="./results/region_pairwise_identity_heatmap.svg" alt="Pairwise nucelotide identity by gene and viral group" width="500">
+<img src="./results/region_pairwise_identity_heatmap.svg" alt="Pairwise nucelotide identity by gene and viral group" width="1000">
+
+### 7. Create sliding-window diversity and conservation profiles
+
+This step uses the existing MAFFT alignments from step 5. It does not rerun sequence extraction or alignment. After the alignments are available, run the analysis and plotting scripts from the project directory submitted as a Slurm job:
+
+```bash
+sbatch scripts/08_sliding_window_profiles.sbatch
+```
+
+The workflow uses 100 alignment columns per window, with windows advancing by 10 columns. The final window is anchored to the end of each alignment so that
+the terminal columns are included; alignments shorter than 100 columns use one window. The bash script calls two python scripts, `08_sliding_window_profiles.py` and `09_plot_sliding_window_profiles.py`
+
+`08_sliding_window_profiles.py` writes `results/sliding_window_profiles.csv`. It reports each observed dataset group separately, plus an `ALL` profile pooled across groups, for env, pol, and gag. Nucleotide diversity (π per site) is the mean per-column fraction of callable sequence pairs that differ. Mean conservation is the average frequency of the most common unambiguous nucleotide at callable columns, and invariant-site percentage is the percentage of columns with at least two callable sequences that agree completely. Gaps and ambiguous bases are excluded. The CSV records the window's alignment-column coordinates and the number of columns usable for each metric; a metric is blank when no sites can be evaluated.
+
+`09_plot_sliding_window_profiles.py` creates six SVGs in `results/`: one nucleotide-diversity and one conservation profile for each of env, pol, and gag. The horizontal axis is alignment-column position, not genomic coordinates. The scripts use Python's standard library and require no additional package.
 
 ## Personal Reflection 
 What started as a whim during the add/drop period at the beginning of the semester has somehow turned into this project! Before this class I didn't even really know what a HPC was, how to fully use my terminal to contorl my computer, wildcards in bash scripts and anything about Git/Github. I had taken Intro to Programming and Data Structures but the hpc seemed very far away. This class and this project has really pushed my limits on how I am using a computer, and even AI tools. If you told me 3 years ago when I entered college that I would be using a 'high performance computer' or even the amount of coding that I am doing I dont think I would have believed you. 
+
 This project started with an idea of comparing HIV and SIV as I worked in a HIV lab this summer looking at how HIV antibodies show up on immunoassays -  how these immunoassays might potentially be used instead of viral load testing as viral load testing is expensive and processing blood sammples for periperal blood mononuclear cells (PBMCs) and plasma. It ended up morphing more into a genomics project with data from NCBI but thats kinda where the initial HIV idea came from. 
+
 I learned a lot as I was completing this project. This class was the first time I had heard of conda (not the snake!) let alone use conda to control what tool versions I am using. I learned to use GitHub to store my work (this project is it's own repository!) in a place where others can see/access the project that I am working on. (You might be looking at this on Github!) I spent a lot of time figuring out what I was doing for this project, and that is evident in the github pushes, the prompt action log and this README document. 

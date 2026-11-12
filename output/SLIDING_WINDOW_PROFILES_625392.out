@@ -1,0 +1,7 @@
+Wrote sliding-window profiles to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/sliding_window_profiles.csv
+Wrote sliding-window plot to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/env_sliding_window_nucleotide_diversity.svg
+Wrote sliding-window plot to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/env_sliding_window_conservation.svg
+Wrote sliding-window plot to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/pol_sliding_window_nucleotide_diversity.svg
+Wrote sliding-window plot to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/pol_sliding_window_conservation.svg
+Wrote sliding-window plot to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/gag_sliding_window_nucleotide_diversity.svg
+Wrote sliding-window plot to /sciclone/home/amtobian/HIV_SIV_COMPARSION_PROJECT/results/gag_sliding_window_conservation.svg

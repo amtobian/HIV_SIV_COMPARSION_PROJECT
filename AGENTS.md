@@ -245,3 +245,8 @@ Use the following official documentation as the primary reference for Research C
 When instructions in this file conflict with updated official W&M Research Computing policies, prioritize current university policies and inform the user of the conflict.
 
 Do not assume that documented module versions, cluster availability, or system configurations will remain unchanged. Verify them when necessary.
+
+## Other
+ - Do not overwrite my personal reflection section of README.md 
+ - Every change I make please document in the prompt_action_log.md as I want maximum reproducability. 
+ - If something is wrong or will not work ask me before taking action!
